@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yasmeen Hamada's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css "/>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #004d40, #007a6c, #68195c, #00d3c6);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff69b4;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 100px 0;
+      background: linear-gradient(to bottom, #004d40, #007a6c, #00a699, #00d3c6);
+      color: #f0f8ff;
+    }
+
+    .profile-picture {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #ff69b4;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 18px;
+      transition: color 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .social-icons i {
+      margin-right: 5px;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+    .content-section {
+      background-color: rgba(14, 3, 3, 0.8);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Sidebar Icons Styles */
+    .sidebar-icons {
+      position: fixed;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .social-icons-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .social-icons-sidebar a {
+      color: #ff69b4;
+      font-size: 18px;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-icons-sidebar a:hover {
+      color: #fff;
+    }
+
+    .projects-icon a {
+      color: #ff69b4;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .projects-icon a:hover {
+      color: #fff;
+    }
+
+    .divider {
+      width: 100%;
+      border: none;
+      border-top: 1px solid #ff69b4;
+      opacity: 0.5;
+    }
+
+    /* Goodbye Section */
+    .goodbye-section {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background-color: rgba(14, 3, 3, 0.8);
+      color: #ff69b4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 100px;
+    }
+
+    .goodbye-section h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .goodbye-section p {
+      font-size: 18px;
+      color: #f0f8ff;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      .download-cv {
+        float:none;
+        display:inline-block;
+        margin: 10px auto;
+      }
+      .hero-section {
+        padding: 50px 0;
+      }
+      .profile-picture {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  
+   
+
+   
+  <!-- Navbar -->
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+    <button class="download-cv" style="float: right;">Download my CV</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <p>Hello to</p>
+    <h1>Yasmeen Hamada's Portfolio</h1>
+  </div>
+
+  <!-- Profile Picture -->
+  <div class="profile-picture">
+    <img src="WhatsApp Image 2025-07-07 at 4.46.01 PM.jpeg" alt="Profile Picture">
+  </div>
+
+  <!-- Social Icons with Font Awesome -->
+  <div class="social-icons">
+    <a href="https://github.com/yourusername " target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+    <a href="https://linkedin.com/in/yourprofile " target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+    <a href="https://twitter.com/yourtwitter " target="_blank"><i class="fab fa-twitter"></i> Twitter</a> |
+    <a href="tel:+201234567890" target="_blank"><i class="fas fa-phone"></i> Call Me</a>|
+ 
+  </div>
+
+  <!-- Content Sections -->
+  <div class="content-section">
+    <h2 id="about">About Me</h2>
+    <p>Hello! My name is Yasmeen Hamada. I am a passionate web development student learning HTML, CSS, and JavaScript.</p>
+    <blockquote>"Learning never exhausts the mind." - Leonardo da Vinci</blockquote>
+    <hr>
+  </div>
+
+  <div class="content-section">
+    <h2 id="skills">My Skills</h2>
+    <ul>
+      <li>HTML - Intermediate</li>
+      <li>CSS - Beginner</li>
+      <li>JavaScript - Beginner</li>
+      <li>Problem Solving</li>
+      <li>Teamwork</li>
+    </ul>
+    <hr>
+  </div>
+
+  <div class="content-section">
+    <h2 id="projects">Projects</h2>
+    <h3>1. My First Website</h3>
+    <p>This was my very first website using only HTML. It includes images, lists, and paragraphs.</p>
+    <a href="#">View Project</a>
+
+    <h3>2. Book Review Page</h3>
+    <p>A simple page where I wrote book reviews and added links to buy the books online.</p>
+    <img src="images/Project.jpg" alt="Project image">
+
+    <h3>3.GitHub Projects</h3>
+    <p><em>لا توجد مستودعات عامة حالياً. يرجى المحاولة لاحقاً أو تحديث الصفحة.</em></p>
+    <hr>
+  </div>
+
+  <div class="content-section">
+    <h2 id="contact">Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="+20..."><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea name="message" id="message" rows="5" cols="20"></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+
+ 
+
+  <!-- Goodbye Section -->
+  <footer class="goodbye-section">
+ <h2>Thank You❤️</h2>
+    <p>Thank you for your visit, I hope we meet again</p>
+  </footer>
+
+</body>
+</html>
